@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Normal" tilewidth="16" tileheight="16">
+  <image source="../tileset.png" width="320" height="320"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="4"/>
+   <terrain name="Grass" tile="42"/>
+   <terrain name="Water" tile="5"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,0"/>
+  <tile id="1" terrain="0,0,0,1"/>
+  <tile id="2" terrain="0,0,1,1"/>
+  <tile id="3" terrain="0,0,1,0"/>
+  <tile id="4" terrain="0,0,0,0"/>
+  <tile id="5" terrain="2,2,2,2"/>
+  <tile id="6" terrain="2,2,2,1"/>
+  <tile id="7" terrain="2,2,1,1"/>
+  <tile id="8" terrain="2,2,1,2"/>
+  <tile id="9" terrain="2,2,2,2"/>
+  <tile id="20" terrain="0,0,0,1"/>
+  <tile id="21" terrain="0,1,1,1"/>
+  <tile id="22" terrain="1,1,1,1"/>
+  <tile id="23" terrain="1,0,1,1"/>
+  <tile id="24" terrain="0,0,1,0"/>
+  <tile id="25" terrain="2,2,2,1"/>
+  <tile id="26" terrain="2,1,1,1"/>
+  <tile id="27" terrain="1,1,1,1"/>
+  <tile id="28" terrain="1,2,1,1"/>
+  <tile id="29" terrain="2,2,1,2"/>
+  <tile id="40" terrain="0,1,0,1"/>
+  <tile id="41" terrain="1,1,1,1"/>
+  <tile id="42" terrain="1,1,1,1"/>
+  <tile id="43" terrain="1,1,1,1"/>
+  <tile id="44" terrain="1,0,1,0"/>
+  <tile id="45" terrain="2,1,2,1"/>
+  <tile id="46" terrain="1,1,1,1"/>
+  <tile id="47" terrain="1,1,1,1"/>
+  <tile id="48" terrain="1,1,1,1"/>
+  <tile id="49" terrain="1,2,1,2"/>
+  <tile id="60" terrain="0,1,0,0"/>
+  <tile id="61" terrain="1,1,0,1"/>
+  <tile id="62" terrain="1,1,1,1"/>
+  <tile id="63" terrain="1,1,1,0"/>
+  <tile id="64" terrain="1,0,0,0"/>
+  <tile id="65" terrain="2,1,2,2"/>
+  <tile id="66" terrain="1,1,2,1"/>
+  <tile id="67" terrain="1,1,1,1"/>
+  <tile id="68" terrain="1,1,1,2"/>
+  <tile id="69" terrain="1,2,2,2"/>
+  <tile id="80" terrain="0,0,0,0"/>
+  <tile id="81" terrain="0,1,0,0"/>
+  <tile id="82" terrain="1,1,0,0"/>
+  <tile id="83" terrain="1,0,0,0"/>
+  <tile id="84" terrain="0,0,0,0"/>
+  <tile id="85" terrain="2,2,2,2"/>
+  <tile id="86" terrain="2,1,2,2"/>
+  <tile id="87" terrain="1,1,2,2"/>
+  <tile id="88" terrain="1,2,2,2"/>
+  <tile id="89" terrain="2,2,2,2"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyFlEFTgzAUhNMqHcrd4ij1LlQJ3jUdxd47Clb+/w/xZWZ32GEqPXwT8pK32TyS5M652mjQVqBFW4LYD5jDWINYbL1RgFpyd0aOeIN+jRjX0rEGeRX6FebGnL3xdYE30T2HRxvXeTIWxtHo8E06xF8v6NJ3BT3mRRLjxrgyrtHvwOOMx1b0EvGzQF6QsQ5rbP7RCqgfc6hzlLwWYzG2PKPl5VvPyK3sbSG1inyL37n/EX19GifjA7VUn2wTQL1c6uQnei9GbzxjjD7V6xJ93St90AvPcNTLjB/EeUZz0d6IpxZav8ZgrOCF54V60eM7NHmnuAeuHUSrB5noxf+xNdYYG+DzNMPBuDMeJId6Bdal5iBeFe5rkH0cMFf1eN89NFOwxtypdib6XEPrp+8CvbKmK+QyZ5B+JnHVK934Hulbpl5TqVWP2qUT7t14d3PxWEO3RSyg3U5yC8T5jpZoeaYamaN6XmJ8m/mO8iyVMh4kR++zvtncR5C1+R93bjzjkT+lqUhs
+  </data>
+ </layer>
+ <layer name="Collision" width="20" height="20" opacity="0.36">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4AQUkTK5eapinwIBdLy5xUszCZx65mBg7KTGPUjPxAWqbR6qZ5ABK9A4WAAAZqAwB
+  </data>
+ </layer>
+</map>
