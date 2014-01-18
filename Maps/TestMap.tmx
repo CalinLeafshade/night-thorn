@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="Normal" tilewidth="16" tileheight="16">
-  <image source="../tileset.png" width="320" height="320"/>
+  <image source="../../nightthorn/tileset.png" width="320" height="320"/>
   <terraintypes>
    <terrain name="Dirt" tile="4"/>
    <terrain name="Grass" tile="42"/>
@@ -63,9 +63,10 @@
    eJyFlEFTgzAUhNMqHcrd4ij1LlQJ3jUdxd47Clb+/w/xZWZ32GEqPXwT8pK32TyS5M652mjQVqBFW4LYD5jDWINYbL1RgFpyd0aOeIN+jRjX0rEGeRX6FebGnL3xdYE30T2HRxvXeTIWxtHo8E06xF8v6NJ3BT3mRRLjxrgyrtHvwOOMx1b0EvGzQF6QsQ5rbP7RCqgfc6hzlLwWYzG2PKPl5VvPyK3sbSG1inyL37n/EX19GifjA7VUn2wTQL1c6uQnei9GbzxjjD7V6xJ93St90AvPcNTLjB/EeUZz0d6IpxZav8ZgrOCF54V60eM7NHmnuAeuHUSrB5noxf+xNdYYG+DzNMPBuDMeJId6Bdal5iBeFe5rkH0cMFf1eN89NFOwxtypdib6XEPrp+8CvbKmK+QyZ5B+JnHVK934Hulbpl5TqVWP2qUT7t14d3PxWEO3RSyg3U5yC8T5jpZoeaYamaN6XmJ8m/mO8iyVMh4kR++zvtncR5C1+R93bjzjkT+lqUhs
   </data>
  </layer>
+ <objectgroup name="Object Layer 1" width="20" height="20"/>
  <layer name="Collision" width="20" height="20" opacity="0.36">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2B4AQUkTK5eapinwIBdLy5xUszCZx65mBg7KTGPUjPxAWqbR6qZ5ABK9A4WAAAZqAwB
+   eJxjYBgFo2BggQISHmjzsOkj1zwFBux6cYmTYhY+88jFxNhJiXmUmokPUNs8Us0kB1Cid7AAAH63DGE=
   </data>
  </layer>
 </map>
