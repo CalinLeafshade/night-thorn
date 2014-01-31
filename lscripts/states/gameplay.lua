@@ -5,7 +5,7 @@ GamePlay = State()
 
 GamePlay.opaque = true
 
-local player = Actor(1,0,0)
+local player = Actor(1,64,0)
 local m = Map(require("maps.map1"))
 m:attachObject(player)
 local cam = Camera()

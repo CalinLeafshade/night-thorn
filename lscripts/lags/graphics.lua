@@ -9,6 +9,12 @@ local graphics = {
 
 local width, height,translation
 
+local alignments = 
+{
+	left = ags.eAlignLeft,
+	center = ags.eAlignCentre
+}
+
 local function translateCoords(x,y)
 	return x + translation[1], y + translation[2]
 end 
@@ -101,6 +107,11 @@ function graphics.print(text,x,y)
 	assert(graphics.surface, "no surface active, must be called from lags.draw")
 	x,y = translateCoords(x,y)
 	graphics.surface:DrawString(x,y,graphics.font,text)
+end
+
+function graphics.printf(text,x,y,width,align)
+	assert(graphics.surface, "no surface active, must be called from lags.draw")
+	graphics.surface:DrawStringWrapped(x,y,width,graphics.font,alignments[align], text)
 end
 
 function graphics.setFont(font)

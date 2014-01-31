@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="Normal" tilewidth="16" tileheight="16">
-  <image source="../../nightthorn/tileset.png" width="320" height="320"/>
+  <image source="../tileset.png" width="320" height="320"/>
   <terraintypes>
    <terrain name="Dirt" tile="4"/>
    <terrain name="Grass" tile="42"/>
@@ -60,13 +60,13 @@
  </tileset>
  <layer name="Tile Layer 1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyFlEFTgzAUhNMqHcrd4ij1LlQJ3jUdxd47Clb+/w/xZWZ32GEqPXwT8pK32TyS5M652mjQVqBFW4LYD5jDWINYbL1RgFpyd0aOeIN+jRjX0rEGeRX6FebGnL3xdYE30T2HRxvXeTIWxtHo8E06xF8v6NJ3BT3mRRLjxrgyrtHvwOOMx1b0EvGzQF6QsQ5rbP7RCqgfc6hzlLwWYzG2PKPl5VvPyK3sbSG1inyL37n/EX19GifjA7VUn2wTQL1c6uQnei9GbzxjjD7V6xJ93St90AvPcNTLjB/EeUZz0d6IpxZav8ZgrOCF54V60eM7NHmnuAeuHUSrB5noxf+xNdYYG+DzNMPBuDMeJId6Bdal5iBeFe5rkH0cMFf1eN89NFOwxtypdib6XEPrp+8CvbKmK+QyZ5B+JnHVK934Hulbpl5TqVWP2qUT7t14d3PxWEO3RSyg3U5yC8T5jpZoeaYamaN6XmJ8m/mO8iyVMh4kR++zvtncR5C1+R93bjzjkT+lqUhs
+   eJxtVFtuwyAQ3C/XzQWQErcSvxjVJhdAammO4Ka+/0GClRkxRf0YIR47zO4y3M3sXvFVsVTMQMEYKjzmGWcCkLB2jGvFVLFXDBWf4IwVDnsJc4813qV7Cdwz5q8VJ+AD9y+4LyGW+maJjzgTsZ4xvoFzAF+S3KZOn2qacGYFstx3rdjAF4UnQavH+YLYRWJn3LVKPa6SL3NwiCdfEo0ZOU/SM9Yjd/qYK2Mn4aNe9p89Vq1Lx8d8yJuFL2LdAeydEz7q28EX5D7VN9lfHapVa9fny7o46ZlHbBTeA9/29IIiSD9+7Pmm+caYF98fe1TA9WvND0QSvkMjfUJPUR/7mIVrAxh7Rh7Hm37H2g6dmoPv5jfEasxLxQX1COAcrflvE3jJa5c8bjh7Bhc9TL+Wf3hP4Otz2ztds4CeplbWdBB9qm3odLFvrDHfpP5l1DmCj7Vi3Udw6b9B3ziZL9a8H635Q/kvwsF/VN9tseaF2PGt1v4X/s38e+iHIPv8w1SfjnyDRe6hl+mZIngAK8pJeg==
   </data>
  </layer>
  <objectgroup name="Object Layer 1" width="20" height="20"/>
  <layer name="Collision" width="20" height="20" opacity="0.36">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BggQISHmjzsOkj1zwFBux6cYmTYhY+88jFxNhJiXmUmokPUNs8Us0kB1Cid7AAAH63DGE=
+   eJxTYGBgUIBiagAFNDzczUM3c9S8oWueAhaMTZxcs3CZR8hMXGYpkKAGnzw+N5BrHiFAinnEAGLNIxdQy5zhBgALNg4B
   </data>
  </layer>
 </map>

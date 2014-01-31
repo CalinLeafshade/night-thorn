@@ -31,10 +31,10 @@ function Actor:move(dir)
 	if not self.moving then
 		local x,y = self:getTileXY()
 		local d = deltas[dir]
+		self.dir = dir
+		self.animations[self.dir]:reset()
 		if self.map:walkable(x + d[1], y + d[2]) then
-			self.dir = dir
 			self.moving = dir
-			self.animations[self.dir]:reset()
 		end
 	end
 end
@@ -59,12 +59,21 @@ end
 
 function Actor:say(text)
 	local gui = GUI(5,130,310,45)
-	gui.text = text
+	gui.text = text:sub(1,1)
 	local speaking = true
+	local i = 0
 	while speaking do
 		coroutine.yield()
+		if gui.text ~= text and i%3 == 0 then
+			gui.text = text:sub(1, gui.text:len() + 1)
+		end
+		i = i + 1
 		if lags.keyboard.isNew("z") then
-			speaking = false
+			if gui.text == text then
+				speaking = false
+			else
+				gui.text = text
+			end
 		end
 	end
 	gui:destroy()
@@ -75,7 +84,6 @@ function Actor:update()
 end
 
 function Actor:draw()
-	--lags.graphics.rect("fill",self.x, self.y, 16,16)
 	self.animations[self.dir]:draw(self:getPosition())
 end
 

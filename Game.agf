@@ -606,7 +606,7 @@
     <Plugins>
       <Plugin>
         <FileName>agslua.dll</FileName>
-        <Data>rLAj+37mIU6yzU3YzJGJew==</Data>
+        <Data>uLugJkUUOEGo900SwyW8Iw==</Data>
       </Plugin>
     </Plugins>
     <Rooms>
@@ -1302,7 +1302,7 @@
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="1" Width="320" Height="320" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Hermes\Documents\nightthorn\tileset.png</FileName>
+              <FileName>G:\Coding\night-thorn\tileset.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
